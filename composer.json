@@ -14,7 +14,7 @@
         "ext-phalcon": "2.0.*"
     },
     "require-dev": {
-        "phalcon/devtools": "dev-master,
+        "phalcon/devtools": "dev-master",
         "phpunit/phpunit": "4.0.*",
         "satooshi/php-coveralls": "dev-master"
     },

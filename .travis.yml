@@ -22,7 +22,7 @@ before_install:
 script:
   - mkdir -p tests/fixtures/cache
   - mkdir -p build/logs
-  - php vendor/bin/phpunit -c travis/phpunit.xml.dist
+  - php vendor/bin/phpunit -c travis/phpunit.xml.dist --coverage-text
 
 after_script:
   - php vendor/bin/coveralls -v
